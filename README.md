@@ -1,8 +1,8 @@
-# Selenium + Java Mini Project
+# Selenium Mini Project
 
 ## Overview
 
-This project demonstrates the automation of 6 e-commerce website scenarios using Selenium and Java. The framework follows the Page Object Model (POM) structure, using JUnit for test execution and assertions. It covers account creation, login, page filters, wish list management, shopping cart operations, and more.
+This project demonstrates the automation of 6 e-commerce website scenarios using Selenium and Java. The framework follows the Page Object Model (POM) structure, using TestNG for test execution and assertions. It covers account creation, login, page filters, wish list management, shopping cart operations, and more.
 
 ## Project Requirements
 
