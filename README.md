@@ -40,18 +40,29 @@ This project demonstrates the automation of 6 e-commerce website scenarios using
 ## Project Structure
 
 ```bash
-├── src
-│   ├── main
-│   │   └── java
-│   │       ├── pages
-│   │       │   ├── HomePage.java
-│   │       │   ├── CreateAccountPage.java
-│   │       │   └── BasePage.java
-│   │       └── utilities
-│   │           └── WaitUtility.java
+magento-test-automation
+├── .idea
+├── main
+│   └── java
+│       └── pages
+│           ├── BasePage.java
+│           ├── HomePage.java
+│           ├── JacketsPage.java
+│           ├── ProductsPage.java
+│           ├── RegistrationPage.java
+│           ├── ShoppingCartPage.java
+│           ├── SignInPage.java
+│           └── WishListPage.java
+│       └── utilities
+│           └── resources
+│       └── screenshots
+│           └── screenshot.png
 ├── test
 │   └── java
-│       └── TestCases.java
+│       ├── BaseTest.java
+│       ├── FilterTest.java
+│       ├── RegistrationTest.java
+│       └── SignInTest.java
+├── target
 ├── .gitignore
 ├── pom.xml
-└── README.md
